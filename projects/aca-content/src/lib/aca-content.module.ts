@@ -121,6 +121,7 @@ import { AppTrashcanModule } from './components/trashcan/trashcan.module';
 import { AppSharedLinkViewModule } from './components/shared-link-view/shared-link-view.module';
 import { AcaFolderRulesModule } from '@alfresco/aca-folder-rules';
 import { CustomIconsModule } from './extensions/custom-icons.module';
+import { AppHeaderActionsModule } from './components/header-actions/header-actions.module';
 
 registerLocaleData(localeFr);
 registerLocaleData(localeDe);
@@ -162,6 +163,7 @@ registerLocaleData(localeSv);
     AppCreateMenuModule,
     DocumentListCustomComponentsModule,
     AppSearchInputModule,
+    AppHeaderActionsModule,
     AppSearchResultsModule,
     AppHeaderModule,
     AppNodeVersionModule,
